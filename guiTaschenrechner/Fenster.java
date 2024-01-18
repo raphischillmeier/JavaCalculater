@@ -4,7 +4,7 @@ import javax.swing.JButton;
 
 public class Fenster extends JFrame {
     
-    public Fenster{
+    public Fenster(){
 
     setLayout(null);
 
@@ -14,7 +14,7 @@ public class Fenster extends JFrame {
 
     setTitle("Taschenrechner");
 
-    setDefaultCloseOperation(JFrame.EXIT_ON_Close);
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
 
