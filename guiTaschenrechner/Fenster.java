@@ -8,7 +8,6 @@ import java.util.Scanner;
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
-
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.event.ActionEvent;
@@ -119,10 +118,5 @@ public class Fenster extends JFrame {
             return null; 
         }
 
-    }
-
-    public static void main(String[] args) {
-        // Hier können Sie Ihre Fenster-Instanz erstellen
-        Fenster fenster = new Fenster();
     }
 }
