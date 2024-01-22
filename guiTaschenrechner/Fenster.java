@@ -48,11 +48,17 @@ public class Fenster extends JFrame {
 
         //erstellt gridBagConstraints für jede komponente
         buttonEvaluate.setBounds(20, 20, 150, 30);
+        //erstellt ein grid (reihen) layout welches zur positionierung verwendert wird
         GridBagConstraints gbc1 = new GridBagConstraints();
+        //bestimmt die zellen position in x richtung
         gbc1.gridx = 0;
+        //bestimmt die zellen position in y richtung
         gbc1.gridy = 0;
+        //bestimmt das padding in x richtung
         gbc1.weightx = 1.0;
+        //bestimmt das padding in y richtung
         gbc1.weighty = 1.0;
+        //bestimmt in welcher zelle das element platziert werden soll
         gbc1.fill = GridBagConstraints.CENTER;
 
 
